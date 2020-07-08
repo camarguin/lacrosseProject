@@ -1,0 +1,183 @@
+<header>
+  <div id="header">
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
+    <div id="hamburger-bar">
+      <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </label>
+    </div>
+    <div id="sidebarMenu">
+      <ul class="sidebarMenuInner">
+        <p>
+          <a href="../index.html"><i class="fas fa-home"></i></a>MENU
+        </p>
+        <input
+          type="radio"
+          class="subbtn"
+          id="subbtn-1"
+          name="subMenu"
+          onclick="showSubmenu()"
+        />
+        <button
+          type="button"
+          id="offradio-1"
+          onclick="radioDeselection()"
+        ></button>
+        <li>
+          <a href="../html/About.html">ABOUT</a>
+          <label for="subbtn-1" class="downbtn" id="hidebtn1">
+            <i class="fas fa-chevron-down" style="font-size: medium;"></i>
+          </label>
+          <label for="offradio-1" class="upbtn" id="showbtn1">
+            <i class="fas fa-chevron-up" style="font-size: medium;"></i>
+          </label>
+        </li>
+        <ul id="submenu-1">
+          <li><a href="About.html#idstaff">Staff</a></li>
+          <li><a href="#">Sponsors</a></li>
+          <li><a href="About.html#idtestimonials">Testimonials</a></li>
+          <li><a href="#">Policies</a></li>
+          <li><a href="#">Payment Plans</a></li>
+        </ul>
+        <input
+          type="radio"
+          class="subbtn"
+          id="subbtn-2"
+          name="subMenu"
+          onclick="showSubmenu()"
+        />
+        <li>
+          <a href="fieldPrograms.html">FIELD PROGRAMS</a>
+          <label for="subbtn-2" class="downbtn" id="hidebtn2">
+            <i class="fas fa-chevron-down" style="font-size: medium;"></i>
+          </label>
+          <label for="offradio-1" class="upbtn" id="showbtn2">
+            <i class="fas fa-chevron-up" style="font-size: medium;"></i>
+          </label>
+        </li>
+        <ul id="submenu-2">
+          <li><a href="fieldPrograms.html?par=id2021" >-2021 : 2022</a></li>
+          <li><a href="fieldPrograms.html?par=id2324">-2023 : 2024</a></li>
+          <li><a href="fieldPrograms.html?par=id2527">-2025 : 2027</a></li>
+        </ul>
+        <input
+          type="radio"
+          class="subbtn"
+          id="subbtn-3"
+          name="subMenu"
+          onclick="showSubmenu()"
+        />
+        <li>
+          <a href="boxPrograms.html">BOX PROGRAMS</a>
+          <label for="subbtn-3" class="downbtn" id="hidebtn3">
+            <i class="fas fa-chevron-down" style="font-size: medium;"></i>
+          </label>
+          <label for="offradio-1" class="upbtn" id="showbtn3">
+            <i class="fas fa-chevron-up" style="font-size: medium;"></i>
+          </label>
+        </li>
+        <ul id="submenu-3">
+          <li><a href="boxPrograms.html?par=idmidget">Midget</a></li>
+          <li><a href="boxPrograms.html?par=idbantam">Bantam</a></li>
+          <li><a href="boxPrograms.html?par=idpeewee">PeeWee</a></li>
+        </ul>
+        <input
+          type="radio"
+          class="subbtn"
+          id="subbtn-4"
+          name="subMenu"
+          onclick="showSubmenu()"
+        />
+        <li>
+          <a href="camps-events.html">CAMPS & EVENTS</a>
+          <label for="subbtn-4" class="downbtn" id="hidebtn4">
+            <i class="fas fa-chevron-down" style="font-size: medium;"></i>
+          </label>
+          <label for="offradio-1" class="upbtn" id="showbtn4">
+            <i class="fas fa-chevron-up" style="font-size: medium;"></i>
+          </label>
+        </li>
+        <ul id="submenu-4">
+          <li>
+            <a href="camps-events.html?par=idtournaments">Tournaments</a>
+          </li>
+          <li>
+            <a href="camps-events.html#field_camps"
+              >Field Camps</a
+            >
+          </li>
+          <li><a href="camps-events.html#idboxcamps">Box Camps</a></li>
+        </ul>
+        <input
+          type="radio"
+          class="subbtn"
+          id="subbtn-5"
+          name="subMenu"
+          onclick="showSubmenu()"
+        />
+        <li>
+          <a href="NCAA.html">NCAA RECRUITMENTS</a>
+          <label for="subbtn-5" class="downbtn" id="hidebtn5">
+            <i class="fas fa-chevron-down" style="font-size: medium;"></i>
+          </label>
+          <label for="offradio-1" class="upbtn" id="showbtn5">
+            <i class="fas fa-chevron-up" style="font-size: medium;"></i>
+          </label>
+        </li>
+        <ul id="submenu-5">
+          <li><a href="NCAA.html#NCAAlink1">PCC Alumni</a></li>
+          <li><a href="NCAA.html#NCAAlink2">Recruiter Info</a></li>
+          <li><a href="NCAA.html#NCAAlink2">SAT Preparation</a></li>
+        </ul>
+        <input
+          type="radio"
+          class="subbtn"
+          id="subbtn-6"
+          name="subMenu"
+          onclick="showSubmenu()"
+        />
+        <li>
+          <a href="training.html">TRAINING</a>
+          <label for="subbtn-6" class="downbtn" id="hidebtn6">
+            <i class="fas fa-chevron-down" style="font-size: medium;"></i>
+          </label>
+          <label for="offradio-1" class="upbtn" id="showbtn6">
+            <i class="fas fa-chevron-up" style="font-size: medium;"></i>
+          </label>
+        </li>
+        <ul id="submenu-6">
+          <li><a href="training.html#idtraining">Private Training</a></li>
+          <li><a href="training.html#idtraining">Group Training</a></li>
+          <li><a href="training.html#idtraining">Weight Training</a></li>
+        </ul>
+        <li>
+          <a href="#">Q&A</a>
+        </li>
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    <div id="box-title">
+      <div id="rectangle"></div>
+      <h1 id="title-section"></h1>
+    </div>
+    <a id="logo-tp" href="#"
+      ><img src="../images/logo-tp.png" alt="logo Lacrosse Pro Caliber"
+    /></a>
+  </div>
+</header>
+<script>
+  $(function () {
+    var backColor = $("#hamburger-bar");
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 220) {
+        backColor.css("background-color", "#89c64a");
+      } else if ($(this).scrollTop() < 220) {
+        backColor.css("background-color", "");
+      }
+    });
+  });
+</script>
